@@ -1,4 +1,4 @@
-<img width="973" height="414" alt="image" src="https://github.com/user-attachments/assets/1d823c30-54a0-4d78-80e1-ca44c33ffbab" /># Projeto de BD - Sistema de Oficina Mecânica
+# Projeto de BD - Sistema de Oficina Mecânica
 
 Este projeto simula o funcionamento de uma oficina mecânica com controle de clientes, veículos, mecânicos, ordens de serviço e peças. Utilizamos a linguagem Python para integrar com O SQL
 
