@@ -1,4 +1,4 @@
-# Projeto de BD - Sistema de Oficina Mecânica
+<img width="973" height="414" alt="image" src="https://github.com/user-attachments/assets/1d823c30-54a0-4d78-80e1-ca44c33ffbab" /># Projeto de BD - Sistema de Oficina Mecânica
 
 Este projeto simula o funcionamento de uma oficina mecânica com controle de clientes, veículos, mecânicos, ordens de serviço e peças. Utilizamos a linguagem Python para integrar com O SQL
 
@@ -24,22 +24,22 @@ DB_PASSWORD=sua_senha
 _cd src_
 _python main.py_
 
-**Estrutura do projeto**
+```
 Projeto-BD/
-├── .env                  # Dados de conexão com o banco
-├── requirements.txt      # Dependências do Python
-├── README.md             # Este arquivo
-├── projeto.sql           # Script opcional com a criação manual do banco
+├── .env                   # Dados de conexão com o banco
+├── requirements.txt       # Dependências do Python
+├── README.md              # Este arquivo
+├── projeto.sql            # Script opcional com a criação manual do banco
 └── src/
-    ├── main.py           # Script principal de execução
-    └── oficina/          # Módulo com toda a lógica do sistema
-        ├── __init__.py
-        ├── base.py       #	Classe base com execute_query() reaproveitada por todos os CRUDs    
-        ├── db.py         #	Faz a conexão com o banco, usando .env
-        ├── setup.py      #	Cria todas as tabelas do banco automaticamente
-        ├── clientes.py   # CRUD de clientes pessoa física e jurídica
-        ├── mecanicos.py  #	CRUD de mecânicos efetivos e freelancers
-        ├── veiculos.py   # CRUD de carros e motos associados a clientes
-        ├── ordens_servico.py # Criação, atualização e listagem de ordens de serviço
-        ├── pecas.py          # Cadastro de peças e controle de estoque
-        └── relatorios.py     #	Relatórios por status, clientes mais ativos e serviços executados 
+    ├── main.py            # Script principal de execução
+    └── oficina/           # Módulo com toda a lógica do sistema
+        ├── __init__.py           # Torna a pasta um pacote Python
+        ├── base.py               # Classe base com execute_query() reaproveitada por todos os CRUDs
+        ├── db.py                 # Faz a conexão com o banco, usando .env
+        ├── setup.py              # Cria todas as tabelas do banco automaticamente
+        ├── clientes.py           # CRUD de clientes pessoa física e jurídica
+        ├── mecanicos.py          # CRUD de mecânicos efetivos e freelancers
+        ├── veiculos.py           # CRUD de carros e motos associados a clientes
+        ├── ordens_servico.py     # Criação, atualização e listagem de ordens de serviço
+        ├── pecas.py              # Cadastro de peças e controle de estoque
+        └── relatorios.py         # Relatórios por status, clientes mais ativos e serviços executados
